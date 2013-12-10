@@ -8,10 +8,10 @@
     <authors>$author$</authors>
     <owners>$author$</owners>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
-    <projectUrl>https://github.com/CaffeinatedCoder/NHibernate.Caffeinated/NHibernate.Caffeinated.HiLoIndexesPerEntity</projectUrl>
+    <projectUrl>https://github.com/CaffeinatedCoder/NHibernate.Caffeinated/tree/master/NHibernate.Caffeinated.HiLoIndexesPerEntity</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>First release.</releaseNotes>
+    <releaseNotes>Fixed github URL in NuGet package.</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>NHibernate HiLo</tags>
     <dependencies>
