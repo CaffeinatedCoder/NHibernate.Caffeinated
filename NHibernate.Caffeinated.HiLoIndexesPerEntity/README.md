@@ -61,10 +61,8 @@ using NHibernate.Cfg;
 using NHibernate.Dialect;
 using NHibernate.Driver;
 using NHibernate.Mapping.Code;
-
 ...
-
-public ISessionFactory CreateSessionFactory
+public ISessionFactory CreateSessionFactory()
 {
   var cfg = new Configuration();
   cfg.DatabaseIntegration(db => {
@@ -77,9 +75,9 @@ public ISessionFactory CreateSessionFactory
   var mapper = new ModelMapper();
   mapper.AddMapping<SampleEntityMapping>();
   ...
-  
   var mapping = mapper.CompileMappingForAllExplicitlyAddedEntities();
   cfg.AddMapping(mapping);
+  
   cfg.ExtendHiLoTableForEntitySpecificKeys<HiLoTableInfo, SQLiteDialect>(new SqliteGeneratorProvider());
   
   return cfg.BuildSessionFactory();
