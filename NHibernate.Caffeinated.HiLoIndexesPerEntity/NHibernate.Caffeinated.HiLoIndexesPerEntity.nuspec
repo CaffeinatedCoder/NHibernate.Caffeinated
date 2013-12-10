@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/CaffeinatedCoder/NHibernate.Caffeinated/NHibernate.Caffeinated.HiLoIndexesPerEntity</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>NHibernate HiLo</tags>
+    <dependencies>
+      <dependency id="NHibernate" version="[3,4)" />
+    </dependencies>
+  </metadata>
+</package>
