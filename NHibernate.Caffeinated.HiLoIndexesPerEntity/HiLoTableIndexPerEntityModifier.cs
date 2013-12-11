@@ -52,6 +52,7 @@
                                         Type = DbType.String,
                                         DefaultValue = string.Empty,
                                         Size = 128,
+                                        IsUnique = true
                                     }
                        };
             }
@@ -66,7 +67,8 @@
                                 Name = this.tableInfo.IndexOnEntityColumnName,
                                 TableName = this.tableInfo.TableName,
                                 IsClustered = false,
-                                SchemaName = this.tableInfo.SchemaName
+                                SchemaName = this.tableInfo.SchemaName,
+                                IsUnique = true
                             };
 
                 index.Columns.Add(new IndexColumnDefinition
